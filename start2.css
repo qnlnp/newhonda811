@@ -1,0 +1,187 @@
+
+
+
+
+h1 {
+    font-family: 'Times New Roman';
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+
+    margin : 20px;
+    
+}
+
+h3 {
+    font-family :sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+
+    
+
+
+}
+
+
+
+
+
+
+
+.search-box {
+
+    width: 950px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top:5px;
+
+  }
+  
+  input {
+    width: 90%;
+    height: 90%;
+
+    border: 1px solid #bbb;
+    border-radius: 12px;
+    display: center;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .container {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+    background: rgb(240, 240, 240);
+    width: 1100px;
+    height: 1020px;
+    flex-direction: column;
+    margin: 0 auto;
+    outline-style: dashed;
+    padding-top : 10px;
+    margin-top : 30px;
+  
+
+  }
+
+
+
+
+  .containerA {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 360px;
+
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    outline-style: dashed;
+  }
+
+  .containerB {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+
+    width: 1000px;
+    height: 120px;
+  
+    border-radius: 18px;
+    background-color: transparent;
+    margin: 0 auto;
+    outline-style: dashed;
+  }
+
+
+
+  
+  .containerC {
+
+    text-align: center;
+    font-size: 20px;
+    width: 1000px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display : flex;
+    padding: 15px;
+    outline-style: dashed;
+
+    
+    
+
+
+  }
+
+  a {
+    color: #000000;
+    margin : 0 auto;
+    text-align : center;
+    vertical-align: middle;
+    border-radius: 12px;
+    margin-top : 24px;
+    
+  }
+  
+
+  
+  .child {
+    flex:1;
+
+    width:30%;
+    height : 410px;
+
+    vertical-align: middle;
+    text-align : center;
+
+    margin: 10px;
+    border-radius: 15px;
+    
+  }
+
+  .child :hover{
+      box-shadow: 0px 0px 15px rgb(58, 58, 58);
+      transition: 0.2s ease-out;
+
+    }
+
+
+
+  .child2 {
+    flex:1;
+    margin : 0 auto;
+
+    width: 90%;
+    height : 360px;
+
+    text-align : center;
+    background-color: white;
+    border-radius: 15px;
+    margin-top : 24px;
+    box-shadow: 0px 0px 8px rgb(189, 189, 189);
+
+  }
+
+  .child2 :hover{
+    background: rgb(122, 122, 122);
+
+  }
+
+
+
+
+  .container_list {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+    margin: 25px;
+    width: 1200px;
+    height: 800px;
+    outline: dashed 1px white;
+    margin: 0 auto;
+    flex-direction: column;
+    
+    
+
+  }

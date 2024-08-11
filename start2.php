@@ -1,0 +1,147 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MobileDeviceInfo</title>
+        <meta charset="utf-8">
+        <link href="header.css" rel="stylesheet">
+        <link href="page02.css" rel="stylesheet">
+        <link href="start2.css" rel="stylesheet">
+
+
+        <link href="tab.css" rel="stylesheet">
+    </head>
+
+
+
+
+    <body>
+
+        <div class="header">
+            <div class="section">
+                        <div class="logo">
+                        <img src="btn.png" class = "imgclass" alt="My Image">
+                        </div>
+
+                        <div class="navi">
+                    <ul>
+                        <li><a class="a_header" href=" html02.html" target="_self">전체 메뉴</a></li>
+                        <li><a class="a_header" href=" html02.html" target="_self">공지사항</a></li>
+                        <li><a class="a_header" href=" html02.html" target="_self">의견 보내기</a></li>
+                        <li><a class="a_header" href=" html02.html" target="_self">자료</a></li>
+                    </ul>
+                        </div>
+
+                    <div class="user">
+                             <ul>
+            
+                            <?php include "../phplist3/index.php"; ?>
+                            </ul>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+        <div class="containerA">
+            <h1>MobileDeviceInfo</h1>
+
+        </div>
+
+
+            <div class="containerB">
+                <h3>
+                    <script>
+                        <!--
+                            document.write("최종 업데이트 : "+document.lastModified+" ")
+                            //-->
+                            </script> 
+
+                </h3>
+
+
+                
+                <form class="search-box" action="" method="get">
+                    <input class="search=txt" type="text" name="" placeholder="키워드로 검색">
+                </form>
+            </div>
+
+
+
+
+                    <div class="containerC">
+
+
+                        <div class="child">
+                                <div class="child2">
+                                <a href="page03.php" target="_self">
+                                    <img src = "btn.png"></a><br>
+                                <a href="page03.php" target="_self"> 버튼1</a>
+                                </div>
+                        </div>
+
+
+
+
+                        <div class="child">
+                                <div class="child2">
+                                <a href="page04.php" target="_self">
+                                    <img src = "btn.png"></a><br>
+                                <a href="page04.php" target="_self"> 버튼2</a>
+                                </div>
+                        </div>
+
+
+
+
+                        <div class="child">
+                                <div class="child2">
+                                <a href="page02.php" target="_self">
+                                    <img src = "btn.png"></a><br>
+                                <a href="page02.php" target="_self"> 버튼3</a>
+                                </div>
+                        </div>
+
+
+                    </div>
+</div>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

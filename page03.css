@@ -1,0 +1,389 @@
+
+
+h1 {
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 75px;}
+
+h3 {
+    font-family :sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.th{
+  width : 10px;
+  font-size: 30px;
+  margin : 5px;
+  outline-style: dotted;
+  color: red;
+
+
+}
+
+.tr{
+  width : 10px;
+  font-size: 30px;
+  margin : 5px;
+  outline-style: dotted;
+  color: red;
+
+}
+
+
+
+
+
+
+
+  .container {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+    margin: 25px;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    outline-style: dashed;
+    background: rgb(240, 240, 240);
+    
+    
+
+  }
+
+  
+  .container2 {
+
+    text-align: center;
+    font-size: 24px;
+    width: 800px;
+    height: 200px;
+
+    margin: 0 auto;
+    display : flex;
+    
+
+  }
+
+  a {
+
+    vertical-align: middle;
+    font-size: 20px;
+    list-style-type: none;
+
+    
+  }
+
+  a.cpulist {
+    margin-left : 10px;
+    vertical-align: middle;
+    font-size: 40px;
+    list-style-type: none;
+
+  }
+
+  .cpulist{
+    margin-bottom : 8px;
+  }
+
+
+
+  .a_header{
+    color: rgb(0, 0, 0);
+    margin : 10px;
+    font-size: 15px;
+
+  }
+
+
+  
+
+
+
+  .a_cpuname{
+    font-size: 45px;
+
+  }
+
+  .a_infotext{
+    font-size: 20px;
+  }
+
+  .infos {
+    margin : 12px;
+    background-color: #0004ff;
+    margin-left:20px;
+    
+
+  }
+  
+
+  
+  .child {
+    flex:1;
+    margin : 0 auto;
+
+    width:30%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align : center;
+    
+  }
+
+
+  .child2 {
+    flex:1;
+    margin : 0 auto;
+
+    width: 60%;
+    box-sizing: border-box;
+    text-align : center;
+    
+    
+  }
+
+  footer {
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+  .innerbox{
+    display: table-cell;
+    vertical-align: middle;
+    margin : 0 auto;
+    text-align: center;
+    padding : 10px;
+  }
+
+
+
+
+
+
+  .tables{
+  
+    color:red;
+    font-size: 24px;
+    margin : 0 auto;
+
+  }
+
+
+  .chart {
+
+    width : 500px;
+    height: 500px;
+    outline-style: dashed;
+    margin : 35px;
+    margin-left : 50px;
+   }
+
+   .imgclass {
+    width : 100%;
+    height : 100%;
+
+   }
+
+
+   .cpulistper{
+    margin-bottom: 15px;
+    outline-style: dotted;
+    color: rgb(4, 0, 255);
+    line-height:50px
+   }
+
+   .cpulistper:hover{
+    margin-bottom: 15px;
+    outline-style: dotted;
+    color: rgb(4, 0, 255);
+    box-shadow: 0px 0px 20px black;
+    line-height:50px
+   }
+
+
+
+   
+
+  .container_tables1 {
+
+    color: #ff9900;
+    font-size: 38;
+    width : 850px;
+    background-color: #ffffff;
+    height : 100%;
+    outline-style: dotted;
+    margin:0 auto;
+    padding : 12px;
+    margin-top : 12px;
+    
+
+
+
+  }
+
+  .container_tables2 {
+
+    color: #000000;
+    width : 900px;
+    background-color: hsl(0, 100%, 50%);
+    height : 70px;
+
+
+  }
+
+
+
+  .table1 {
+    color: #000000;
+    padding : 10px;
+    width : 400px;
+    background-color: #ffffff;
+    text-align:left ;
+    outline-style: dotted;
+    height : 40px;
+  }
+
+  .table2 {
+    color: rgb(240, 0, 0);
+    padding : 10px;
+    width : 400px;
+    background-color: #ffffff;
+    text-align:left ;
+    outline-style: dotted;
+    height : 40px;
+
+
+  }
+
+
+
+
+
+  .container_list {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+    margin: 25px;
+    width: 1100px;
+    height: 750px;
+    padding-top : 24px;
+    margin: 0 auto;
+    flex-direction: column;
+    color: white;
+    background: rgb(240, 240, 240);
+    margin-top : 30px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+
+    
+  }
+
+  .cpu_name {
+    font-size: 56px;
+    color: #000000;
+    text-align: left;
+    margin-top: 10px;
+    font-size:36px;
+    margin-left: 50px;
+    list-style-type: none;
+    outline-style: dotted;
+    
+
+  }
+
+
+
+  .cpu_list_search{
+    width: 950px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top:5px;
+  }
+
+  .input_cpu_list_search{
+    width: 720px;
+    height: 40px;
+
+    border: 1px solid #bbb;
+    border-radius: 12px;
+    display: center;
+    font-size: 28px;
+    text-align: center;
+  }
+
+
+
+
+
+  .info2{
+    
+    width: 1100px;
+    height: 50px;
+    
+    margin: 0 auto;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    text-align: center;
+    
+  }
+  
+
+
+
+
+
+
+
+  .spec{
+    margin-top: 4px;
+    flex:6;
+    background-color: transparent;
+    margin-left:80px;
+    outline-style: dotted;
+  }
+  
+  .spec ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .spec ul li{
+
+    font-size: 20px;
+    margin: 0px 50px;
+  }
+  
+
+
+  .manf {
+    flex: 0.8;
+    outline-style: dotted;
+  }
+  
+  .manf ul{
+    list-style-type: none;
+    display: flex;
+    justify-content :center
+  }
+  
+  .manf ul li{
+    font-size:24px;
+    flex: 1;
+    margin-right: 5px;
+  }
+
+
+
